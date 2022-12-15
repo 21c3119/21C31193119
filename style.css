@@ -4,7 +4,7 @@ body {
 body header {
   width: auto;
   height: 200px;
-  background-color: burlywood;
+  background-color: darkcyan;
 }
 body .main {
   width: auto;
@@ -29,16 +29,17 @@ body .main .main-step {
   grid-column: 2/3;
   background-color: aliceblue;
 }
+body .main .main-step .movie {
+  margin-left: 15%;
+}
 body .main .main-step .main-step-format {
   display: flexbox;
   margin-bottom: 50px;
   margin-left: 50px;
 }
-body .main .main-step .main-step-format .p {
+body .main .main-step .main-step-format p {
   margin: 0px;
 }
-body footer {
-  width: auto;
-  height: 300px;
-  background-color: beige;
-}/*# sourceMappingURL=style.css.map */
+body .main .main-step .main-step-format img {
+  width: 400px;
+}
